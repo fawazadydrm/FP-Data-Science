@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load data dan pipeline
-df = pd.read_csv('../data/HRDataset_v14.csv')
+df = pd.read_csv('data/HRDataset_v14.csv')
 logreg = joblib.load('../model/logreg_model.pkl')
 scaler = joblib.load('../model/scaler.pkl')
 selector = joblib.load('../model/selector.pkl')
