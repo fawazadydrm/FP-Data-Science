@@ -5,11 +5,11 @@ import numpy as np
 
 # Load data dan pipeline
 df = pd.read_csv('data/HRDataset_v14.csv')
-logreg = joblib.load('../model/logreg_model.pkl')
-scaler = joblib.load('../model/scaler.pkl')
-selector = joblib.load('../model/selector.pkl')
-selected_features = joblib.load('../model/selected_features.pkl')
-feature_columns = joblib.load('../model/feature_columns.pkl')
+logreg = joblib.load('model/logreg_model.pkl')
+scaler = joblib.load('model/scaler.pkl')
+selector = joblib.load('model/selector.pkl')
+selected_features = joblib.load('model/selected_features.pkl')
+feature_columns = joblib.load('model/feature_columns.pkl')
 
 # Fitur input dan kategorikal (harus sama dengan training)
 fitur_aman = [
